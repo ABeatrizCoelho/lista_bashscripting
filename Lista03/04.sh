@@ -7,11 +7,6 @@ t1=1
 t2=1
 t3=2
 
-if [ "$n" -le 0 ]; then
-  echo "Digite um número maior que zero."
-  exit 1
-fi
-
 echo "Sequência Tribonacci com $n termos:"
 
 for ((i=1; i<=n; i++)); do
