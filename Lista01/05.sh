@@ -7,4 +7,4 @@ read -p "Digite a altura da caixa: " altura
 
 V=$((comprimento * largura * altura))
 
-echo $V
+echo "O volume da caixa é: $V unidades cúbicas"
